@@ -1,38 +1,49 @@
-.App {
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h2 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* App.css or your custom CSS file */
+/* Progress Bar Styling */
+.progress {
+  height: 20px;
+  margin-top: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.progress-bar {
+  height: 100%;
+  transition: width 0.5s ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.progress-bar[aria-valuenow="100"] {
+  background-color: #28a745; /* Green when complete */
+}
+
+.progress-bar[aria-valuenow="50"] {
+  background-color: #ffc107; /* Yellow for warning */
+}
+
+.progress-bar[aria-valuenow="0"] {
+  background-color: #dc3545; /* Red for error */
 }
