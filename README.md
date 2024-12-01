@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# **Dynamic Form with Progress Bar**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a **Dynamic Form Implementation** with a real-time progress bar, built using **React** and **React-Bootstrap**. It dynamically adjusts form fields, validates inputs, and provides user feedback via a visually appealing progress bar and error alerts.
 
-## Available Scripts
+## **Features**
 
-In the project directory, you can run:
+- **Dynamic Form Fields:** Automatically loads form fields based on the selected form type.
+- **Real-Time Progress Bar:** Displays progress as users fill required fields.
+- **Form Validation:** Ensures mandatory fields are filled before submission.
+- **Error Alerts:** Highlights missing required fields with error messages.
+- **Multiple Form Types:** Supports different form structures like user information, address details, and payment information.
 
-### `npm start`
+## **Technologies Used**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend:** React, React-Bootstrap
+- **Styling:** Custom CSS, Bootstrap
+- **Version Control:** Git and GitHub
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## **Setup and Installation**
 
-### `npm test`
+Follow the steps below to set up the project on your local machine:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/dynamic-form-progress.git
+    ```
 
-### `npm run build`
+2. Navigate into the project folder:
+    ```bash
+    cd dynamic-form-progress
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Install the dependencies:
+    ```bash
+    npm install
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Run the application:
+    ```bash
+    npm start
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Open your browser and visit:
+    ```bash
+    http://localhost:3000
+    ```
 
-### `npm run eject`
+## Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Select a form type from the dropdown.
+- Fill out the form fields.
+- The progress bar will update in real-time based on the fields you complete.
+- Upon submitting the form, you will receive feedback about the required fields.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Demo Video
+- Click to view the demonstration of the application’s features.
+[![Demo Video](HomeScreen.png)](https://drive.google.com/file/d/1-cCS9NmqbWG4g-RLFzy9AylUo8FyA7PA/view?usp=drive_link)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Demo vedio link: https://drive.google.com/file/d/1-cCS9NmqbWG4g-RLFzy9AylUo8FyA7PA/view?usp=drive_link
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Folder Structure
+```
+dynamic-form-progress/
+│
+├── public/                  # Static assets
+│   └── index.html
+│
+├── src/                     # Source code
+│   ├── components/          # Reusable components (if applicable)
+│   ├── App.css              # Styling
+│   ├── App.js               # Main app logic
+│   └── index.js             # App entry point
+│
+├── .gitignore               # Files to be ignored by Git
+├── package.json             # Project dependencies and scripts
+└── README.md                # Project documentation
+```
+# Future Enhancements
+* Add more form types for different use cases.
+* Implement backend integration for saving submitted data.
+* Enhance UI with animations and accessibility features.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
