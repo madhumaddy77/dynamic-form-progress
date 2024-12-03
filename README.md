@@ -57,7 +57,7 @@ Follow the steps below to set up the project on your local machine:
 - Click to view the demonstration of the application’s features.
 [![Demo Video](PaymentInformation.png)](https://drive.google.com/file/d/12MWMnxiVFJzMaE3E_orNA1tmy2gkraev/view?usp=drive_link)
 
-Demo vedio link: https://drive.google.com/file/d/1-cCS9NmqbWG4g-RLFzy9AylUo8FyA7PA/view?usp=drive_link
+Demo vedio link: https://drive.google.com/file/d/12MWMnxiVFJzMaE3E_orNA1tmy2gkraev/view?usp=drive_link
 
 
 # Folder Structure
